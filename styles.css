@@ -1,0 +1,94 @@
+#wlc{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    color: palevioletred;
+    background-color: gainsboro;
+    text-shadow:2px 1px teal;
+    animation-duration: 10s;
+    animation-name: slidein; 
+    animation-iteration-count: 7;
+    animation-direction:alternate;
+ }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+
+    to {
+        margin-left:0%;
+        width:100%;
+      } 
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-ornament-tic-tac-toe-seamless-vector-wallpaper-repeat-decor-game-tic-tac-toe-tile-fabric-design-abstract-ornament-tic-197320877.jpg");
+}
+
+.profile{
+    font-family: monospace;
+    font-size: 10px;
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+}
+.profile img{
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+.profile h1{
+    color: teal;
+    margin: 10px;
+}
+
+.options{
+    font-family: monospace;
+    font-size: 10px;
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+}
+
+.options button{
+    margin: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color:mediumpurple;
+}
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: 10px solid teal;
+    justify-content: center;
+}
+.box:hover{
+    border-color: turquoise;
+    border-radius:5px;
+    box-shadow: 0px 0px 2px 2px turquoise;
+    zoom:normal;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    box-shadow: 1px 2px 5px lightblue;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
